@@ -1,0 +1,238 @@
+
+body {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    margin: 0;
+    padding: 0;
+    background: #FFECD1; 
+    color: #001524; 
+}
+
+header {
+    background: #001524; 
+    color: #FFECD1; 
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFECD1; 
+    border: 2px solid #FFECD1;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background: #FF7D00; 
+    color: #FFECD1;
+}
+
+main {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    color: #15616D; 
+}
+
+form input, form button {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input:focus, form button:focus {
+    border-color: #FF7D00; 
+}
+
+form button {
+    background: #FF7D00; 
+    color: #fff;
+}
+
+form button:hover {
+    background: #78290F; 
+}
+
+#book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.book-entry {
+    background: #fff;
+    padding: 20px
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.book-table thead {
+    background: #15616D;
+    color: #FFECD1; 
+}
+
+.book-table th, .book-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.book-table tbody tr:nth-child(even) {
+    background: #F1F1F1; 
+}
+
+.book-table tbody tr:hover {
+    background: #FF7D00; 
+    color: #fff;
+}
+
+.delete-btn {
+    background: #FF7D00; 
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: #78290F; 
+}
+
+#book-list p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #78290F; 
+    margin: 2rem 0;
+}
+    text-align: center;
+}
+
+nav a {
+    color: #FFECD1; 
+    border: 2px solid #FFECD1;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background: #78290F; 
+    color: #FFECD1;
+}
+
+main {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #15616D; 
+}
+
+form input, form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input:focus, form button:focus {
+    outline: none;
+    border-color: #FF7D00; 
+}
+
+form button {
+    background: #FF7D00; 
+    color: #fff;
+}
+
+form button:hover {
+    background: #78290F; 
+}
+
+#book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.book-entry {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.book-entry:hover {
+    transform: scale(1.02); 
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.book-table thead {
+    background: #15616D;
+    color: #FFECD1; 
+}
+
+.book-table th, .book-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.book-table tbody tr:nth-child(even) {
+    background: #F1F1F1; 
+}
+
+.book-table tbody tr:hover {
+    background: #FF7D00; 
+    color: #fff;
+}
+
+#book-list p {
+    text-align: center;
+    color: #78290F; 
+    margin: auto;
+}
+
+
+
+
+
+
